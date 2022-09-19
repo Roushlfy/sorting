@@ -1,0 +1,133 @@
+{
+  "main": {
+    "id": "91e3d9df19816a3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "37483a36bb6f8b61",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "cmake_handbook.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f7d408332be939b",
+    "type": "split",
+    "children": [
+      {
+        "id": "044f34f022db0702",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e15ca062f1931de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e1fee498b638dfad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7e611ac7d7103996",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3eaa1fa6978c636b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1da8547ddd9fdea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "680229d6e1c615cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "cmake_handbook.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fbb07cfd79dddca1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "cmake_handbook.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ac502b0371bc94dc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "beb63b05a7168e23",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "cmake_handbook.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "37483a36bb6f8b61",
+  "lastOpenFiles": []
+}

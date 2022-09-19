@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/sorting.dir/main.cpp.o -c /Users/xzxiao/cs/cpp/sorting/main.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/main.cpp"
+},
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/sorting.dir/src/merge.cpp.o -c /Users/xzxiao/cs/cpp/sorting/src/merge.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/src/merge.cpp"
+},
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/sorting.dir/src/bubble.cpp.o -c /Users/xzxiao/cs/cpp/sorting/src/bubble.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/src/bubble.cpp"
+},
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/sorting.dir/src/selection.cpp.o -c /Users/xzxiao/cs/cpp/sorting/src/selection.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/src/selection.cpp"
+},
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/sorting.dir/src/print.cpp.o -c /Users/xzxiao/cs/cpp/sorting/src/print.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/src/print.cpp"
+},
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/cpptest.dir/test/test.cpp.o -c /Users/xzxiao/cs/cpp/sorting/test/test.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/test/test.cpp"
+}
+]

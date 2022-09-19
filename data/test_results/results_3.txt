@@ -1,0 +1,26 @@
+Repeated times:10
+Selection sort 10 elements average time: 2e-07
+Selection sort 20 elements average time: 4e-07
+Selection sort 50 elements average time: 2.3e-06
+Selection sort 100 elements average time: 8.3e-06
+Selection sort 200 elements average time: 3.1e-05
+Selection sort 500 elements average time: 0.0001836
+Selection sort 1000 elements average time: 0.0007415
+Selection sort 2000 elements average time: 0.0034085
+Selection sort 5000 elements average time: 0.0196736
+Selection sort 10000 elements average time: 0.0782162
+Selection sort 20000 elements average time: 0.305846
+Selection sort 50000 elements average time: 1.79483
+**********Repeated times:10
+Merge sort 10 elements average time: 3e-07
+Merge sort 20 elements average time: 5e-07
+Merge sort 50 elements average time: 1.6e-06
+Merge sort 100 elements average time: 3.4e-06
+Merge sort 200 elements average time: 7.6e-06
+Merge sort 500 elements average time: 2.01e-05
+Merge sort 1000 elements average time: 4.4e-05
+Merge sort 2000 elements average time: 9.18e-05
+Merge sort 5000 elements average time: 0.0002531
+Merge sort 10000 elements average time: 0.000533
+Merge sort 20000 elements average time: 0.0011296
+Merge sort 50000 elements average time: 0.0030189
