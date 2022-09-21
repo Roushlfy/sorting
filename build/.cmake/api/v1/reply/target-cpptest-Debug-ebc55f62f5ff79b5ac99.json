@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "sorting"
+			"path" : "cpptest"
 		}
 	],
 	"backtrace" : 1,
@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
@@ -42,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+					"fragment" : "-Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
 				}
 			],
 			"includes" : 
@@ -58,20 +58,17 @@
 				0,
 				1,
 				2,
-				3,
-				4,
-				5,
-				6
+				3
 			]
 		}
 	],
-	"id" : "sorting::@6890427a1f51a3e7e1df",
+	"id" : "cpptest::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-Ofast -g",
 				"role" : "flags"
 			},
 			{
@@ -81,8 +78,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "sorting",
-	"nameOnDisk" : "sorting",
+	"name" : "cpptest",
+	"nameOnDisk" : "cpptest",
 	"paths" : 
 	{
 		"build" : ".",
@@ -97,10 +94,7 @@
 				0,
 				1,
 				2,
-				3,
-				4,
-				5,
-				6
+				3
 			]
 		}
 	],
@@ -109,31 +103,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "test/test.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/merge.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/bubble.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/selection.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/print.cpp",
+			"path" : "src/pigeonhole.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -145,7 +121,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/pigeonhole.cpp",
+			"path" : "src/print.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

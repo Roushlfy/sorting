@@ -4,8 +4,8 @@
 #include <iostream>
 
 #include "merge.h"
-#include "print.h"
 #include "selection.h"
+#include "print.h"
 
 using namespace std;
 
@@ -15,13 +15,13 @@ void large_scale();
 
 int main() {
     srand(time(0));
-    // test_selection();
+    test_selection();
     cout << setfill('*') << setw(10) << "";
     cout << endl;
-    // test_merge();
+    test_merge();
     cout << setfill('*') << setw(10) << "";
     cout << endl;
-    large_scale();
+    // large_scale();
 
     return 0;
 }
@@ -30,11 +30,12 @@ void test_merge() {
     clock_t t;
     int n;
     int repeat, repeat_times = 10;
-    int scale[] = {10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000};  // len 12
+    int scale[] = {1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000,10000,
+    20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000};
 
     cout << "Repeated times:" << repeat_times << endl;
 
-    for (n = 0; n < 12; ++n) {
+    for (n = 0; n < 19; ++n) {
         // generate data
         int data[scale[n]];
         for (int i = 0; i < scale[n]; i++) {
@@ -57,11 +58,12 @@ void test_selection() {
     clock_t t;
     int n;
     int repeat, repeat_times = 10;
-    int scale[] = {10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000};  // len 12
+    int scale[] = {1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000,
+    10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000};
 
     cout << "Repeated times:" << repeat_times << endl;
 
-    for (n = 0; n < 12; ++n) {
+    for (n = 0; n < 19; ++n) {
         // generate data
         int data[scale[n]];
         for (int i = 0; i < scale[n]; i++) {
@@ -89,11 +91,11 @@ void large_scale() {
     cout << "Repeated times:" << repeat_times << endl;
 
     for (n = 0; n < 10; ++n) {
-    int data[scale[n]];
+        int data[scale[n]];
         for (int i = 0; i < scale[n]; i++) {
             data[i] = rand() % 10000;
         }
-    
+
         // merge sort
         t = clock();
         for (repeat = 0; repeat < repeat_times; ++repeat) {
@@ -105,8 +107,8 @@ void large_scale() {
                   << "average time: " << ((float)t) / CLOCKS_PER_SEC / repeat_times << std::endl;
     }
 
-    for (n = 0; n < 10;++n){
-    int data[scale[n]];
+    for (n = 0; n < 10; ++n) {
+        int data[scale[n]];
         for (int i = 0; i < scale[n]; i++) {
             data[i] = rand() % 10000;
         }

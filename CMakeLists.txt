@@ -6,17 +6,17 @@ include_directories(include)
 # add main binary files
 add_executable(sorting
     main.cpp 
+    src/print.cpp
     src/merge.cpp
     src/bubble.cpp
     src/selection.cpp
-    src/print.cpp
     src/insertion.cpp
     src/pigeonhole.cpp
     )
 
-
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+set(CMAKE_CXX_FLAGS "-Ofast")
 include(CPack)
 
 

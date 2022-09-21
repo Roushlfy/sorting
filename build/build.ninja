@@ -48,49 +48,49 @@ build cmake_object_order_depends_target_sorting: phony || CMakeFiles/sorting.dir
 
 build CMakeFiles/sorting.dir/main.cpp.o: CXX_COMPILER__sorting_Debug /Users/xzxiao/cs/cpp/sorting/main.cpp || cmake_object_order_depends_target_sorting
   DEP_FILE = CMakeFiles/sorting.dir/main.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
   OBJECT_DIR = CMakeFiles/sorting.dir
   OBJECT_FILE_DIR = CMakeFiles/sorting.dir
 
+build CMakeFiles/sorting.dir/src/print.cpp.o: CXX_COMPILER__sorting_Debug /Users/xzxiao/cs/cpp/sorting/src/print.cpp || cmake_object_order_depends_target_sorting
+  DEP_FILE = CMakeFiles/sorting.dir/src/print.cpp.o.d
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
+  OBJECT_DIR = CMakeFiles/sorting.dir
+  OBJECT_FILE_DIR = CMakeFiles/sorting.dir/src
+
 build CMakeFiles/sorting.dir/src/merge.cpp.o: CXX_COMPILER__sorting_Debug /Users/xzxiao/cs/cpp/sorting/src/merge.cpp || cmake_object_order_depends_target_sorting
   DEP_FILE = CMakeFiles/sorting.dir/src/merge.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
   OBJECT_DIR = CMakeFiles/sorting.dir
   OBJECT_FILE_DIR = CMakeFiles/sorting.dir/src
 
 build CMakeFiles/sorting.dir/src/bubble.cpp.o: CXX_COMPILER__sorting_Debug /Users/xzxiao/cs/cpp/sorting/src/bubble.cpp || cmake_object_order_depends_target_sorting
   DEP_FILE = CMakeFiles/sorting.dir/src/bubble.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
   OBJECT_DIR = CMakeFiles/sorting.dir
   OBJECT_FILE_DIR = CMakeFiles/sorting.dir/src
 
 build CMakeFiles/sorting.dir/src/selection.cpp.o: CXX_COMPILER__sorting_Debug /Users/xzxiao/cs/cpp/sorting/src/selection.cpp || cmake_object_order_depends_target_sorting
   DEP_FILE = CMakeFiles/sorting.dir/src/selection.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
-  OBJECT_DIR = CMakeFiles/sorting.dir
-  OBJECT_FILE_DIR = CMakeFiles/sorting.dir/src
-
-build CMakeFiles/sorting.dir/src/print.cpp.o: CXX_COMPILER__sorting_Debug /Users/xzxiao/cs/cpp/sorting/src/print.cpp || cmake_object_order_depends_target_sorting
-  DEP_FILE = CMakeFiles/sorting.dir/src/print.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
   OBJECT_DIR = CMakeFiles/sorting.dir
   OBJECT_FILE_DIR = CMakeFiles/sorting.dir/src
 
 build CMakeFiles/sorting.dir/src/insertion.cpp.o: CXX_COMPILER__sorting_Debug /Users/xzxiao/cs/cpp/sorting/src/insertion.cpp || cmake_object_order_depends_target_sorting
   DEP_FILE = CMakeFiles/sorting.dir/src/insertion.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
   OBJECT_DIR = CMakeFiles/sorting.dir
   OBJECT_FILE_DIR = CMakeFiles/sorting.dir/src
 
 build CMakeFiles/sorting.dir/src/pigeonhole.cpp.o: CXX_COMPILER__sorting_Debug /Users/xzxiao/cs/cpp/sorting/src/pigeonhole.cpp || cmake_object_order_depends_target_sorting
   DEP_FILE = CMakeFiles/sorting.dir/src/pigeonhole.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
   OBJECT_DIR = CMakeFiles/sorting.dir
   OBJECT_FILE_DIR = CMakeFiles/sorting.dir/src
@@ -103,8 +103,8 @@ build CMakeFiles/sorting.dir/src/pigeonhole.cpp.o: CXX_COMPILER__sorting_Debug /
 #############################################
 # Link the executable sorting
 
-build sorting: CXX_EXECUTABLE_LINKER__sorting_Debug CMakeFiles/sorting.dir/main.cpp.o CMakeFiles/sorting.dir/src/merge.cpp.o CMakeFiles/sorting.dir/src/bubble.cpp.o CMakeFiles/sorting.dir/src/selection.cpp.o CMakeFiles/sorting.dir/src/print.cpp.o CMakeFiles/sorting.dir/src/insertion.cpp.o CMakeFiles/sorting.dir/src/pigeonhole.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+build sorting: CXX_EXECUTABLE_LINKER__sorting_Debug CMakeFiles/sorting.dir/main.cpp.o CMakeFiles/sorting.dir/src/print.cpp.o CMakeFiles/sorting.dir/src/merge.cpp.o CMakeFiles/sorting.dir/src/bubble.cpp.o CMakeFiles/sorting.dir/src/selection.cpp.o CMakeFiles/sorting.dir/src/insertion.cpp.o CMakeFiles/sorting.dir/src/pigeonhole.cpp.o
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/sorting.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -122,28 +122,28 @@ build cmake_object_order_depends_target_cpptest: phony || CMakeFiles/cpptest.dir
 
 build CMakeFiles/cpptest.dir/test/test.cpp.o: CXX_COMPILER__cpptest_Debug /Users/xzxiao/cs/cpp/sorting/test/test.cpp || cmake_object_order_depends_target_cpptest
   DEP_FILE = CMakeFiles/cpptest.dir/test/test.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
   OBJECT_DIR = CMakeFiles/cpptest.dir
   OBJECT_FILE_DIR = CMakeFiles/cpptest.dir/test
 
 build CMakeFiles/cpptest.dir/src/pigeonhole.cpp.o: CXX_COMPILER__cpptest_Debug /Users/xzxiao/cs/cpp/sorting/src/pigeonhole.cpp || cmake_object_order_depends_target_cpptest
   DEP_FILE = CMakeFiles/cpptest.dir/src/pigeonhole.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
   OBJECT_DIR = CMakeFiles/cpptest.dir
   OBJECT_FILE_DIR = CMakeFiles/cpptest.dir/src
 
 build CMakeFiles/cpptest.dir/src/insertion.cpp.o: CXX_COMPILER__cpptest_Debug /Users/xzxiao/cs/cpp/sorting/src/insertion.cpp || cmake_object_order_depends_target_cpptest
   DEP_FILE = CMakeFiles/cpptest.dir/src/insertion.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
   OBJECT_DIR = CMakeFiles/cpptest.dir
   OBJECT_FILE_DIR = CMakeFiles/cpptest.dir/src
 
 build CMakeFiles/cpptest.dir/src/print.cpp.o: CXX_COMPILER__cpptest_Debug /Users/xzxiao/cs/cpp/sorting/src/print.cpp || cmake_object_order_depends_target_cpptest
   DEP_FILE = CMakeFiles/cpptest.dir/src/print.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   INCLUDES = -I/Users/xzxiao/cs/cpp/sorting/include
   OBJECT_DIR = CMakeFiles/cpptest.dir
   OBJECT_FILE_DIR = CMakeFiles/cpptest.dir/src
@@ -157,7 +157,7 @@ build CMakeFiles/cpptest.dir/src/print.cpp.o: CXX_COMPILER__cpptest_Debug /Users
 # Link the executable cpptest
 
 build cpptest: CXX_EXECUTABLE_LINKER__cpptest_Debug CMakeFiles/cpptest.dir/test/test.cpp.o CMakeFiles/cpptest.dir/src/pigeonhole.cpp.o CMakeFiles/cpptest.dir/src/insertion.cpp.o CMakeFiles/cpptest.dir/src/print.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  FLAGS = -Ofast -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/cpptest.dir
   POST_BUILD = :
   PRE_LINK = :

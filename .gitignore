@@ -1,4 +1,6 @@
-bin
+# Added manually by xzXiao
+/data
+/bin
 
 # Added by cargo
 
