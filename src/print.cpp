@@ -1,8 +1,8 @@
-#include <iostream>
 #include "print.h"
+#include <stdio.h>
 
 void print_array(int* arr, int n) {
     for (int i = 0; i < n; i++) {
-        std::cout << arr[i] << " ";
+        printf("%d ", arr[i]);
     }
 }

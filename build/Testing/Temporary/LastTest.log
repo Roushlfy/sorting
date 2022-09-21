@@ -1,3 +1,19 @@
-Start testing: Sep 19 12:50 CST
+Start testing: Sep 21 15:50 CST
 ----------------------------------------------------------
-End testing: Sep 19 12:50 CST
+1/1 Testing: sorting_test
+1/1 Test: sorting_test
+Command: "/Users/xzxiao/cs/cpp/sorting/build/cpptest"
+Directory: /Users/xzxiao/cs/cpp/sorting/build
+"sorting_test" start time: Sep 21 15:50 CST
+Output:
+----------------------------------------------------------
+4 4 3 
+<end of output>
+Test time =   5.79 sec
+----------------------------------------------------------
+Test Passed.
+"sorting_test" end time: Sep 21 15:50 CST
+"sorting_test" time elapsed: 00:00:05
+----------------------------------------------------------
+
+End testing: Sep 21 15:50 CST

@@ -1,3 +1,2 @@
-sorting_test 1 0
+sorting_test 3 1.9295
 ---
-sorting_test

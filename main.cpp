@@ -84,8 +84,8 @@ void large_scale() {
     cout << "Perform sorting on a large scale of numbers.\n";
     clock_t t;
     int n;
-    int repeat, repeat_times = 10;
-    int scale[] = {10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000};  // len 10
+    int repeat, repeat_times = 5;
+    int scale[] = {10000, 20000, 40000, 80000, 160000, 320000, 640000, 1280000, 2560000, 5120000};  // len 10
     cout << "Repeated times:" << repeat_times << endl;
 
     for (n = 0; n < 10; ++n) {

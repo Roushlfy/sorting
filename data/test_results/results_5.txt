@@ -1,0 +1,12 @@
+**********
+**********
+Perform sorting on a large scale of numbers.
+Repeated times:5
+Merge sort 10000 elements average time: 3.64904e+12
+Merge sort 20000 elements average time: 3.64904e+12
+Merge sort 40000 elements average time: 3.64904e+12
+Merge sort 80000 elements average time: 3.64904e+12
+Merge sort 160000 elements average time: 3.64904e+12
+Merge sort 320000 elements average time: 3.64904e+12
+Merge sort 640000 elements average time: 3.64904e+12
+Merge sort 1280000 elements average time: 3.64904e+12

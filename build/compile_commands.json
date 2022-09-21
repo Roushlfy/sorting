@@ -26,7 +26,32 @@
 },
 {
   "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/sorting.dir/src/insertion.cpp.o -c /Users/xzxiao/cs/cpp/sorting/src/insertion.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/src/insertion.cpp"
+},
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/sorting.dir/src/pigeonhole.cpp.o -c /Users/xzxiao/cs/cpp/sorting/src/pigeonhole.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/src/pigeonhole.cpp"
+},
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
   "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/cpptest.dir/test/test.cpp.o -c /Users/xzxiao/cs/cpp/sorting/test/test.cpp",
   "file": "/Users/xzxiao/cs/cpp/sorting/test/test.cpp"
+},
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/cpptest.dir/src/pigeonhole.cpp.o -c /Users/xzxiao/cs/cpp/sorting/src/pigeonhole.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/src/pigeonhole.cpp"
+},
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/cpptest.dir/src/insertion.cpp.o -c /Users/xzxiao/cs/cpp/sorting/src/insertion.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/src/insertion.cpp"
+},
+{
+  "directory": "/Users/xzxiao/cs/cpp/sorting/build",
+  "command": "/usr/bin/clang++ -I/Users/xzxiao/cs/cpp/sorting/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/cpptest.dir/src/print.cpp.o -c /Users/xzxiao/cs/cpp/sorting/src/print.cpp",
+  "file": "/Users/xzxiao/cs/cpp/sorting/src/print.cpp"
 }
 ]
