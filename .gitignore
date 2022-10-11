@@ -1,6 +1,7 @@
 # Added manually by xzXiao
 /data
 /bin
+.cache
 
 # Added by cargo
 
